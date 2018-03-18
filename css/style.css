@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One|Quicksand|Reem+Kufi');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body h2,p{
+    color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+    background-color: #161616;
+}
+
+.navbar a{
+    color: whitesmoke;
+    padding: 12px;
+    font-size: 1.22em;
+    margin-left: 8px;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 8px;
+}
+
+.nav-link:hover{
+    color: darkgray;
+}
+
+.orders a{
+    background-color: slateblue;
+    color: white;
+    border-radius: 10px;
+}
+
+.orders a:hover{
+    background-color: slateblue;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+video{
+    margin-top: 85px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    object-fit: fill;
+}
+
+.heading{
+    color: whitesmoke;
+    font-size: 4.5em;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.content-container{
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jumbo{
+    position: relative;
+    background-color: slateblue;
+    text-align: center;
+    opacity: .85;
+    border-radius: 50px
+}
+#jumbo p {
+    color: pink;
+    font-size: 1.5em;
+    font-family: 'Reem Kufi', cursive;
+}
+
+#members .row{
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+#members{
+    background-color: #161616;
+    padding : 90px 0;
+}
+
+.imagesyle{
+    position: relative;
+}
+
+
+footer{
+    background-color: #343a40;
+    color: white;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer .social{
+    font-size: 3em;
+    color: dimgray;
+}
+
+footer .social:hover{
+    color: white
+}
+
+footer .row .col-md-12 p{
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#members .row .col-md-4 button{
+    padding: 10px 20px;  
+    background-color: slateblue;
+    color: white;
+    margin-top: 20px;
+}
+
+#members .row .col-md-4 button:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

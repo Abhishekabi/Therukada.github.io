@@ -1,2 +1,3 @@
 # Therukada.github.io
-test
+
+This is a webpage prototype developed for a restaurant
